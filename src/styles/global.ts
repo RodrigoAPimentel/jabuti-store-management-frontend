@@ -1,4 +1,16 @@
 import { createGlobalStyle } from 'styled-components';
+import { shade } from 'polished';
+
+import {
+  BackgroudColor,
+  FontColor,
+  FontFamily,
+  InputBackgroundColor,
+  InputFontColor,
+  InputPlaceholderColor,
+  ButtonBackgroudColor,
+  ButtonFontColor,
+} from './commons';
 
 export default createGlobalStyle`
     * {
@@ -9,21 +21,17 @@ export default createGlobalStyle`
     }
 
     body {
-        background: #312E38;
-        color: #FFF;
+        background: ${BackgroudColor};
+        color: ${FontColor};
         -webkit-font-smoothing: antialiased;
     }
 
     body, input, button {
-        font-family: "Roboto Slab", serif;
+        font-family: ${FontFamily};
         font-size: 16px;
     }
 
     h1, h2, h3, h4, h5, h6, strong {
-        font-weight: 500;
-    }
-
-    button {
-        cursor: pointer;
+        font-weight: 800;
     }
 `;

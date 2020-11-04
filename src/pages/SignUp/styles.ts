@@ -3,7 +3,7 @@ import { shade } from 'polished';
 
 import SignBackground from '../../assets/sign_background.jpg';
 
-import { fontSecondaryColor, primaryColor } from '../../styles/commons';
+import { fontSecondaryColor } from '../../styles/commons';
 
 export const Container = styled.div`
   height: 100vh;
@@ -52,7 +52,7 @@ export const Content = styled.div`
   }
 
   > a {
-    color: ${primaryColor};
+    color: ${fontSecondaryColor};
     display: block;
     margin-top: 24px;
     text-decoration: none;
@@ -65,7 +65,7 @@ export const Content = styled.div`
     }
 
     &:hover {
-      color: ${shade(0.2, `${primaryColor}`)};
+      color: ${shade(0.2, `${fontSecondaryColor}`)};
     }
   }
 `;

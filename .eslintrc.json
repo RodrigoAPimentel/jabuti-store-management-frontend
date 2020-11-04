@@ -26,6 +26,11 @@
     ],
     "rules": {
         "prettier/prettier": "error",
+        "react/jsx-props-no-spreading":"off",
+        "react/prop-types":"off",
+        "@typescript-eslint/no-empty-function":"off",
+        "no-unused-expressions":"off",
+        "@typescript-eslint/ban-types":"off",
         "react-hooks/rules-of-hooks":"error",
         "react-hooks/exhaustive-deps":"warn",
         "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
