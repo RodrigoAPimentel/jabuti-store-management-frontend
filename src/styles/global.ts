@@ -1,16 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
-import { shade } from 'polished';
+import 'react-toastify/dist/ReactToastify.css';
 
-import {
-  BackgroudColor,
-  FontColor,
-  FontFamily,
-  InputBackgroundColor,
-  InputFontColor,
-  InputPlaceholderColor,
-  ButtonBackgroudColor,
-  ButtonFontColor,
-} from './commons';
+import { BackgroudColor, FontColor, FontFamily } from './commons';
 
 export default createGlobalStyle`
     * {

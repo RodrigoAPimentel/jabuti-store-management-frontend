@@ -3,12 +3,12 @@ version: "3.7"
 services:
   app:
     build: .
-    image: ${APP_NAME}:${APP_VERSION}
-    container_name: ${APP_NAME}
+    image: ${REACT_APP_APP_NAME}:${REACT_APP_APP_VERSION}
+    container_name: ${REACT_APP_APP_NAME}
     env_file: .env
     restart: always
     ports:
-      - "${APP_PORT}:${APP_PORT}"
+      - "${REACT_APP_APP_PORT}:${REACT_APP_APP_PORT}"
     volumes:
       - .:/app
     networks:

@@ -1,5 +1,5 @@
-export const FontFamily = '"Syne Mono", serif';
-// export const FontFamily = '"Indie Flower", "Roboto Slab", "Syne Mono", serif';
+// export const FontFamily = '"Syne Mono", serif';
+export const FontFamily = '"Indie Flower", "Roboto Slab", "Syne Mono", serif';
 // export const FontFamily = '"Caveat", "Roboto Slab", "Syne Mono", serif';
 // export const FontFamily = '"Grandstander", "Roboto Slab", "Syne Mono", serif';
 // export const FontFamily = '"Dancing Script", "Roboto Slab", "Syne Mono", serif';
